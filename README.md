@@ -1,5 +1,3 @@
----
-
 # Mobile Arduino Serial Sensor ROS2 Wrapper
 
 ## Overview
