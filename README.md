@@ -39,13 +39,14 @@ This allows ROS 2 nodes to **subscribe and process sensor data** in real time fo
 1. Clone the repository:
 
 ```bash
-git clone <repo-url>
-cd <repo-folder>
+git clone https://github.com/Asd1agd/Mobile_Arduino_Serial_sensor_ros2_wraper.git
+cd Mobile_Arduino_Serial_sensor_ros2_wrape
 ```
 
 2. Build your workspace:
 
 ```bash
+rm -rf build/ install/ log/
 colcon build
 source install/setup.bash
 ```
@@ -57,6 +58,12 @@ source install/setup.bash
 ## Running the Node
 
 ### 1. Set IP at node startup
+
+First conenct your mobile and laptop on same network by mobile hotspot .Now get the IP address by entering:
+```bash
+ip a
+```
+in the terminal and you can get ip address at "wlp1s0: inet" copy tha and paste it inside app and as well use it as parameter in ros2 serial_sensor_udp node.
 
 You can specify the PC’s IP address that the Serial Sensor app will send data to:
 
