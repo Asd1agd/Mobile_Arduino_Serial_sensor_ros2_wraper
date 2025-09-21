@@ -1,6 +1,6 @@
 # Mobile Arduino Serial Sensor ROS2 Wrapper
 
-## Why i build Tis project?
+## Why i build This project?
 
 Modern smartphones come equipped with **a wide variety of sensors**—accelerometer, gyroscope, magnetometer, light, proximity, temperature, and more. For rapid prototyping or robotics experiments, you don’t always need external hardware: your phone itself can act as a sensor platform.
 
