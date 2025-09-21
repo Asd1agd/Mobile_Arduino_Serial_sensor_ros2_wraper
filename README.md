@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project provides a **ROS 2 node** that reads sensor data from the **Serial Sensor app** (or Arduino) over a **UDP network** and publishes it in ROS 2 as a **custom message** (`MobileSensorArray`).
+This project provides a **ROS 2 node** that reads sensor data from the **[Serial Sensor app](https://play.google.com/store/apps/details?id=com.karl.serialsensor)** over a **UDP network** and publishes it in ROS 2 as a **custom message** (`MobileSensorArray`).
 
 The node supports **multiple sensors**, including:
 
@@ -40,7 +40,7 @@ This allows ROS 2 nodes to **subscribe and process sensor data** in real time fo
 
 ```bash
 git clone https://github.com/Asd1agd/Mobile_Arduino_Serial_sensor_ros2_wraper.git
-cd Mobile_Arduino_Serial_sensor_ros2_wrape
+cd Mobile_Arduino_Serial_sensor_ros2_wraper
 ```
 
 2. Build your workspace:
@@ -51,7 +51,7 @@ colcon build
 source install/setup.bash
 ```
 
-3. Make sure your Serial Sensor app is sending data over UDP and your PC is on the same network.
+3. Make sure your **Serial Sensor app** is sending data over UDP and your PC is on the same network. You can also check the **example code and scripts** for plotting or receiving sensor data here: [Serial Sensor GitHub Repo](https://github.com/SerialSensor/HowToReadAndPlotSensorData/tree/main)
 
 ---
 
@@ -59,24 +59,24 @@ source install/setup.bash
 
 ### 1. Set IP at node startup
 
-First conenct your mobile and laptop on same network by mobile hotspot .Now get the IP address by entering:
+First connect your mobile and laptop on the **same network** via hotspot or Wi-Fi. Get the PC IP address by running:
+
 ```bash
 ip a
 ```
-in the terminal and you can get ip address at "wlp1s0: inet" copy tha and paste it inside app and as well use it as parameter in ros2 serial_sensor_udp node.
 
-You can specify the PC’s IP address that the Serial Sensor app will send data to:
+Look for your network interface (e.g., `wlp1s0`) and copy the IP address at `inet`. Enter this IP in the Serial Sensor app and also use it as a parameter for the ROS 2 node:
 
 ```bash
 ros2 run serial_sensor_ros2 serial_sensor_udp --ros-args -p udp_ip:=192.168.122.11
 ```
 
 * `udp_ip` → The IP address your PC is listening on.
-* This is useful if your PC has multiple network interfaces or a dynamic IP.
+* Useful if your PC has multiple network interfaces or a dynamic IP.
 
 ### 2. Change IP at runtime
 
-If you need to change the IP while the node is running, use:
+To change the IP while the node is running:
 
 ```bash
 ros2 param set /udp_sensor_publisher udp_ip 192.168.122.11
@@ -89,7 +89,7 @@ ros2 param set /udp_sensor_publisher udp_ip 192.168.122.11
 
 ## How to Use
 
-1. Install the **Serial Sensor app** on your Android device.
+1. Install the **[Serial Sensor app](https://play.google.com/store/apps/details?id=com.karl.serialsensor)** on your Android device.
 2. Configure the app to **send sensor data over UDP** to your PC IP and port `8888`.
 3. Run the ROS 2 node as shown above.
 4. Subscribe to the topic `/sensor_data` in ROS 2:
@@ -124,6 +124,4 @@ float32[5] magnetic_field_sensor_data
 
 * Ensure your PC and phone are **on the same network** (Wi-Fi or USB tethering).
 * The node is **non-blocking**, so it will continue running even if the UDP socket fails to bind initially.
-
----
 
