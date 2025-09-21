@@ -1,5 +1,13 @@
 # Mobile Arduino Serial Sensor ROS2 Wrapper
 
+## Why i build Tis project?
+
+Modern smartphones come equipped with **a wide variety of sensors**—accelerometer, gyroscope, magnetometer, light, proximity, temperature, and more. For rapid prototyping or robotics experiments, you don’t always need external hardware: your phone itself can act as a sensor platform.
+
+This project was created to **leverage the sensors already available on a mobile device** and **stream their data into ROS 2** over Wi-Fi or USB tethering. It allows developers and robotics enthusiasts to **read multiple sensor values in real-time and publish them as a ROS 2 topic** for visualization, logging, or robotic applications—without buying additional hardware.
+
+---
+
 ## Overview
 
 This project provides a **ROS 2 node** that reads sensor data from the **[Serial Sensor app](https://play.google.com/store/apps/details?id=com.karl.serialsensor)** over a **UDP network** and publishes it in ROS 2 as a **custom message** (`MobileSensorArray`).
@@ -124,4 +132,6 @@ float32[5] magnetic_field_sensor_data
 
 * Ensure your PC and phone are **on the same network** (Wi-Fi or USB tethering).
 * The node is **non-blocking**, so it will continue running even if the UDP socket fails to bind initially.
+
+---
 
