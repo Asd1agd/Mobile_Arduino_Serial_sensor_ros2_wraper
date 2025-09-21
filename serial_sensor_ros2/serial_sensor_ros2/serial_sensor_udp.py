@@ -20,7 +20,7 @@ SENSOR_TYPES = {
     31: "heart_beat",
     99: "orientation",
     100: "line_sensor",
-    101: "position",
+    105: "position",
     103: "parameter"
 }
 
@@ -32,7 +32,7 @@ class UDPSensorPublisher(Node):
         self.publisher_ = self.create_publisher(MobileSensorArray, 'sensor_data', 10)
 
         # UDP config
-        self.UDP_IP = "192.168.131.11"
+        self.UDP_IP = "192.168.122.11"
         self.UDP_PORT = 8888
         self.MESSAGE_LENGTH = 13
 
@@ -83,7 +83,7 @@ class UDPSensorPublisher(Node):
 
             # Publish
             self.publisher_.publish(msg)
-            self.get_logger().info(f"Published data for {sensor_name} at {timestamp:.3f}")
+            self.get_logger().info(f"Published data for {sensor_name} at {timestamp:.3f} with id:{int(sensor_type_byte)}")
 
 def main(args=None):
     rclpy.init(args=args)

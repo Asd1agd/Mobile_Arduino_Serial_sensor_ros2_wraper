@@ -1,0 +1,144 @@
+[0.035s] Invoking command in '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/build/sensor_type_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/serial_sensor_ros2:/home/asd/ros2_ws_goat2/install/multi_robo_simulator:/home/asd/ros2_ws_goat2/install/micro_ros_server:/home/asd/ros2_ws_goat2/install/Qr_action:/home/asd/ros2_ws9/install/my_goat_pkg:/home/asd/ros2_ws7/install/my_py_pkg_anscer:/home/asd/ros2_ws4/install/esp_wifi:/home/asd/ros2_ws4/install/maping_odom:/home/asd/ros2_ws/install/turtlesim_catch_them_all:/home/asd/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/build/sensor_type_interface -- -j8 -l8
+[0.208s] [  9%] Built target sensor_type_interface__rosidl_generator_c
+[0.216s] [ 12%] Built target sensor_type_interface__cpp
+[0.228s] [ 12%] Built target ament_cmake_python_copy_sensor_type_interface
+[0.310s] [ 22%] Built target sensor_type_interface__rosidl_typesupport_introspection_c
+[0.312s] [ 41%] Built target sensor_type_interface__rosidl_typesupport_c
+[0.312s] [ 41%] Built target sensor_type_interface__rosidl_typesupport_fastrtps_c
+[0.314s] [ 51%] Built target sensor_type_interface__rosidl_typesupport_introspection_cpp
+[0.316s] [ 61%] Built target sensor_type_interface__rosidl_typesupport_fastrtps_cpp
+[0.318s] [ 70%] Built target sensor_type_interface__rosidl_typesupport_cpp
+[0.368s] [ 70%] Built target sensor_type_interface
+[0.417s] [ 74%] Built target sensor_type_interface__py
+[0.475s] [ 80%] Built target sensor_type_interface__rosidl_generator_py
+[0.540s] [ 87%] Built target sensor_type_interface__rosidl_typesupport_introspection_c__pyext
+[0.542s] [ 93%] Built target sensor_type_interface__rosidl_typesupport_fastrtps_c__pyext
+[0.545s] [100%] Built target sensor_type_interface__rosidl_typesupport_c__pyext
+[0.813s] running egg_info
+[0.814s] writing sensor_type_interface.egg-info/PKG-INFO
+[0.815s] writing dependency_links to sensor_type_interface.egg-info/dependency_links.txt
+[0.815s] writing top-level names to sensor_type_interface.egg-info/top_level.txt
+[0.820s] reading manifest file 'sensor_type_interface.egg-info/SOURCES.txt'
+[0.821s] writing manifest file 'sensor_type_interface.egg-info/SOURCES.txt'
+[0.879s] [100%] Built target ament_cmake_python_build_sensor_type_interface_egg
+[0.904s] Invoked command in '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/build/sensor_type_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/serial_sensor_ros2:/home/asd/ros2_ws_goat2/install/multi_robo_simulator:/home/asd/ros2_ws_goat2/install/micro_ros_server:/home/asd/ros2_ws_goat2/install/Qr_action:/home/asd/ros2_ws9/install/my_goat_pkg:/home/asd/ros2_ws7/install/my_py_pkg_anscer:/home/asd/ros2_ws4/install/esp_wifi:/home/asd/ros2_ws4/install/maping_odom:/home/asd/ros2_ws/install/turtlesim_catch_them_all:/home/asd/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/build/sensor_type_interface -- -j8 -l8
+[0.925s] Invoking command in '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/build/sensor_type_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/serial_sensor_ros2:/home/asd/ros2_ws_goat2/install/multi_robo_simulator:/home/asd/ros2_ws_goat2/install/micro_ros_server:/home/asd/ros2_ws_goat2/install/Qr_action:/home/asd/ros2_ws9/install/my_goat_pkg:/home/asd/ros2_ws7/install/my_py_pkg_anscer:/home/asd/ros2_ws4/install/esp_wifi:/home/asd/ros2_ws4/install/maping_odom:/home/asd/ros2_ws/install/turtlesim_catch_them_all:/home/asd/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/build/sensor_type_interface
+[0.944s] -- Install configuration: ""
+[0.945s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/ament_index/resource_index/rosidl_interfaces/sensor_type_interface
+[0.945s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/include/sensor_type_interface/sensor_type_interface
+[0.945s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/include/sensor_type_interface/sensor_type_interface/msg
+[0.946s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/include/sensor_type_interface/sensor_type_interface/msg/rosidl_generator_c__visibility_control.h
+[0.946s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/include/sensor_type_interface/sensor_type_interface/msg/mobile_sensor_array.h
+[0.946s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/include/sensor_type_interface/sensor_type_interface/msg/detail
+[0.946s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/include/sensor_type_interface/sensor_type_interface/msg/detail/mobile_sensor_array__struct.h
+[0.947s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/include/sensor_type_interface/sensor_type_interface/msg/detail/mobile_sensor_array__type_support.h
+[0.947s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/include/sensor_type_interface/sensor_type_interface/msg/detail/mobile_sensor_array__functions.h
+[0.947s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/include/sensor_type_interface/sensor_type_interface/msg/detail/mobile_sensor_array__functions.c
+[0.947s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/environment/library_path.sh
+[0.947s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/environment/library_path.dsv
+[0.947s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/lib/libsensor_type_interface__rosidl_generator_c.so
+[0.948s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/include/sensor_type_interface/sensor_type_interface
+[0.948s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/include/sensor_type_interface/sensor_type_interface/msg
+[0.948s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/include/sensor_type_interface/sensor_type_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.948s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/include/sensor_type_interface/sensor_type_interface/msg/detail
+[0.948s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/include/sensor_type_interface/sensor_type_interface/msg/detail/mobile_sensor_array__rosidl_typesupport_fastrtps_c.h
+[0.949s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/lib/libsensor_type_interface__rosidl_typesupport_fastrtps_c.so
+[0.949s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/include/sensor_type_interface/sensor_type_interface
+[0.949s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/include/sensor_type_interface/sensor_type_interface/msg
+[0.950s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/include/sensor_type_interface/sensor_type_interface/msg/detail
+[0.950s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/include/sensor_type_interface/sensor_type_interface/msg/detail/mobile_sensor_array__type_support.c
+[0.950s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/include/sensor_type_interface/sensor_type_interface/msg/detail/mobile_sensor_array__rosidl_typesupport_introspection_c.h
+[0.950s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/include/sensor_type_interface/sensor_type_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.951s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/lib/libsensor_type_interface__rosidl_typesupport_introspection_c.so
+[0.951s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/lib/libsensor_type_interface__rosidl_typesupport_c.so
+[0.951s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/include/sensor_type_interface/sensor_type_interface
+[0.951s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/include/sensor_type_interface/sensor_type_interface/msg
+[0.951s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/include/sensor_type_interface/sensor_type_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.952s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/include/sensor_type_interface/sensor_type_interface/msg/detail
+[0.952s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/include/sensor_type_interface/sensor_type_interface/msg/detail/mobile_sensor_array__traits.hpp
+[0.952s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/include/sensor_type_interface/sensor_type_interface/msg/detail/mobile_sensor_array__type_support.hpp
+[0.952s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/include/sensor_type_interface/sensor_type_interface/msg/detail/mobile_sensor_array__builder.hpp
+[0.952s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/include/sensor_type_interface/sensor_type_interface/msg/detail/mobile_sensor_array__struct.hpp
+[0.953s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/include/sensor_type_interface/sensor_type_interface/msg/mobile_sensor_array.hpp
+[0.953s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/include/sensor_type_interface/sensor_type_interface
+[0.953s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/include/sensor_type_interface/sensor_type_interface/msg
+[0.953s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/include/sensor_type_interface/sensor_type_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.953s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/include/sensor_type_interface/sensor_type_interface/msg/detail
+[0.954s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/include/sensor_type_interface/sensor_type_interface/msg/detail/dds_fastrtps
+[0.954s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/include/sensor_type_interface/sensor_type_interface/msg/detail/mobile_sensor_array__rosidl_typesupport_fastrtps_cpp.hpp
+[0.954s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/lib/libsensor_type_interface__rosidl_typesupport_fastrtps_cpp.so
+[0.954s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/include/sensor_type_interface/sensor_type_interface
+[0.954s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/include/sensor_type_interface/sensor_type_interface/msg
+[0.954s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/include/sensor_type_interface/sensor_type_interface/msg/detail
+[0.955s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/include/sensor_type_interface/sensor_type_interface/msg/detail/mobile_sensor_array__rosidl_typesupport_introspection_cpp.hpp
+[0.955s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/include/sensor_type_interface/sensor_type_interface/msg/detail/mobile_sensor_array__type_support.cpp
+[0.955s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/lib/libsensor_type_interface__rosidl_typesupport_introspection_cpp.so
+[0.955s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/lib/libsensor_type_interface__rosidl_typesupport_cpp.so
+[0.956s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/environment/pythonpath.sh
+[0.956s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/environment/pythonpath.dsv
+[0.956s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/local/lib/python3.10/dist-packages/sensor_type_interface-0.0.0-py3.10.egg-info
+[0.956s] -- Installing: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/local/lib/python3.10/dist-packages/sensor_type_interface-0.0.0-py3.10.egg-info/top_level.txt
+[0.956s] -- Installing: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/local/lib/python3.10/dist-packages/sensor_type_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[0.956s] -- Installing: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/local/lib/python3.10/dist-packages/sensor_type_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.957s] -- Installing: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/local/lib/python3.10/dist-packages/sensor_type_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.957s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/local/lib/python3.10/dist-packages/sensor_type_interface
+[0.957s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/local/lib/python3.10/dist-packages/sensor_type_interface/sensor_type_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.957s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/local/lib/python3.10/dist-packages/sensor_type_interface/msg
+[0.957s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/local/lib/python3.10/dist-packages/sensor_type_interface/msg/_mobile_sensor_array_s.c
+[0.957s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/local/lib/python3.10/dist-packages/sensor_type_interface/msg/__init__.py
+[0.958s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/local/lib/python3.10/dist-packages/sensor_type_interface/msg/_mobile_sensor_array.py
+[0.958s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/local/lib/python3.10/dist-packages/sensor_type_interface/_sensor_type_interface_s.ep.rosidl_typesupport_introspection_c.c
+[0.958s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/local/lib/python3.10/dist-packages/sensor_type_interface/libsensor_type_interface__rosidl_generator_py.so
+[0.958s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/local/lib/python3.10/dist-packages/sensor_type_interface/sensor_type_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.958s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/local/lib/python3.10/dist-packages/sensor_type_interface/__init__.py
+[0.958s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/local/lib/python3.10/dist-packages/sensor_type_interface/_sensor_type_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.959s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/local/lib/python3.10/dist-packages/sensor_type_interface/_sensor_type_interface_s.ep.rosidl_typesupport_c.c
+[0.959s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/local/lib/python3.10/dist-packages/sensor_type_interface/sensor_type_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.021s] Listing '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/local/lib/python3.10/dist-packages/sensor_type_interface'...
+[1.022s] Listing '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/local/lib/python3.10/dist-packages/sensor_type_interface/msg'...
+[1.033s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/local/lib/python3.10/dist-packages/sensor_type_interface/sensor_type_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.033s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/local/lib/python3.10/dist-packages/sensor_type_interface/sensor_type_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.034s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/local/lib/python3.10/dist-packages/sensor_type_interface/sensor_type_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.035s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/lib/libsensor_type_interface__rosidl_generator_py.so
+[1.035s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/msg/MobileSensorArray.idl
+[1.036s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/msg/MobileSensorArray.msg
+[1.036s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/ament_index/resource_index/package_run_dependencies/sensor_type_interface
+[1.036s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/ament_index/resource_index/parent_prefix_path/sensor_type_interface
+[1.036s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/environment/ament_prefix_path.sh
+[1.036s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/environment/ament_prefix_path.dsv
+[1.037s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/environment/path.sh
+[1.037s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/environment/path.dsv
+[1.037s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/local_setup.bash
+[1.037s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/local_setup.sh
+[1.037s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/local_setup.zsh
+[1.038s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/local_setup.dsv
+[1.038s] -- Installing: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/package.dsv
+[1.038s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/ament_index/resource_index/packages/sensor_type_interface
+[1.038s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/cmake/export_sensor_type_interface__rosidl_generator_cExport.cmake
+[1.038s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/cmake/export_sensor_type_interface__rosidl_generator_cExport-noconfig.cmake
+[1.039s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/cmake/export_sensor_type_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[1.039s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/cmake/export_sensor_type_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.039s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/cmake/sensor_type_interface__rosidl_typesupport_introspection_cExport.cmake
+[1.039s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/cmake/sensor_type_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.040s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/cmake/sensor_type_interface__rosidl_typesupport_cExport.cmake
+[1.040s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/cmake/sensor_type_interface__rosidl_typesupport_cExport-noconfig.cmake
+[1.040s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/cmake/export_sensor_type_interface__rosidl_generator_cppExport.cmake
+[1.040s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/cmake/export_sensor_type_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.040s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/cmake/export_sensor_type_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.040s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/cmake/sensor_type_interface__rosidl_typesupport_introspection_cppExport.cmake
+[1.042s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/cmake/sensor_type_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.042s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/cmake/sensor_type_interface__rosidl_typesupport_cppExport.cmake
+[1.042s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/cmake/sensor_type_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[1.042s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/cmake/export_sensor_type_interface__rosidl_generator_pyExport.cmake
+[1.042s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/cmake/export_sensor_type_interface__rosidl_generator_pyExport-noconfig.cmake
+[1.042s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/cmake/rosidl_cmake-extras.cmake
+[1.042s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.043s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[1.043s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/cmake/ament_cmake_export_targets-extras.cmake
+[1.043s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.043s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.043s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.043s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/cmake/sensor_type_interfaceConfig.cmake
+[1.043s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/cmake/sensor_type_interfaceConfig-version.cmake
+[1.043s] -- Up-to-date: /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/package.xml
+[1.046s] Invoked command in '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/build/sensor_type_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/serial_sensor_ros2:/home/asd/ros2_ws_goat2/install/multi_robo_simulator:/home/asd/ros2_ws_goat2/install/micro_ros_server:/home/asd/ros2_ws_goat2/install/Qr_action:/home/asd/ros2_ws9/install/my_goat_pkg:/home/asd/ros2_ws7/install/my_py_pkg_anscer:/home/asd/ros2_ws4/install/esp_wifi:/home/asd/ros2_ws4/install/maping_odom:/home/asd/ros2_ws/install/turtlesim_catch_them_all:/home/asd/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/build/sensor_type_interface
