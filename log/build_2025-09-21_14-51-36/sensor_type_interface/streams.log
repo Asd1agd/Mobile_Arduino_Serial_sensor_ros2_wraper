@@ -1,0 +1,17 @@
+[0.047s] Invoking command in '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/build/sensor_type_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asd/ros2_ws_goat2/install/multi_robo_simulator:/home/asd/ros2_ws_goat2/install/micro_ros_server:/home/asd/ros2_ws_goat2/install/Qr_action:/home/asd/ros2_ws9/install/my_goat_pkg:/home/asd/ros2_ws7/install/my_py_pkg_anscer:/home/asd/ros2_ws4/install/esp_wifi:/home/asd/ros2_ws4/install/maping_odom:/home/asd/ros2_ws/install/turtlesim_catch_them_all:/home/asd/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/sensor_type_interface -DCMAKE_INSTALL_PREFIX=/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface
+[0.074s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.309s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.325s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.332s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.387s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.769s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):
+[0.769s]   Packages installing interfaces must include
+[0.769s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[0.769s]   package.xml
+[0.769s] Call Stack (most recent call first):
+[0.769s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[0.770s] 
+[0.770s] [0m
+[0.770s] -- Configuring incomplete, errors occurred!
+[0.770s] See also "/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/build/sensor_type_interface/CMakeFiles/CMakeOutput.log".
+[0.778s] Invoked command in '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/build/sensor_type_interface' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asd/ros2_ws_goat2/install/multi_robo_simulator:/home/asd/ros2_ws_goat2/install/micro_ros_server:/home/asd/ros2_ws_goat2/install/Qr_action:/home/asd/ros2_ws9/install/my_goat_pkg:/home/asd/ros2_ws7/install/my_py_pkg_anscer:/home/asd/ros2_ws4/install/esp_wifi:/home/asd/ros2_ws4/install/maping_odom:/home/asd/ros2_ws/install/turtlesim_catch_them_all:/home/asd/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/sensor_type_interface -DCMAKE_INSTALL_PREFIX=/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface

@@ -1,0 +1,20 @@
+[0.883s] Invoking command in '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/serial_sensor_ros2': PYTHONPATH=/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/build/serial_sensor_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/serial_sensor_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/serial_sensor_ros2 build --build-base /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/build/serial_sensor_ros2/build install --record /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/build/serial_sensor_ros2/install.log --single-version-externally-managed install_data
+[1.211s] running egg_info
+[1.212s] writing ../build/serial_sensor_ros2/serial_sensor_ros2.egg-info/PKG-INFO
+[1.212s] writing dependency_links to ../build/serial_sensor_ros2/serial_sensor_ros2.egg-info/dependency_links.txt
+[1.212s] writing entry points to ../build/serial_sensor_ros2/serial_sensor_ros2.egg-info/entry_points.txt
+[1.212s] writing requirements to ../build/serial_sensor_ros2/serial_sensor_ros2.egg-info/requires.txt
+[1.212s] writing top-level names to ../build/serial_sensor_ros2/serial_sensor_ros2.egg-info/top_level.txt
+[1.215s] reading manifest file '../build/serial_sensor_ros2/serial_sensor_ros2.egg-info/SOURCES.txt'
+[1.216s] writing manifest file '../build/serial_sensor_ros2/serial_sensor_ros2.egg-info/SOURCES.txt'
+[1.216s] running build
+[1.216s] running build_py
+[1.216s] running install
+[1.217s] running install_lib
+[1.218s] running install_data
+[1.218s] running install_egg_info
+[1.220s] removing '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/serial_sensor_ros2/lib/python3.10/site-packages/serial_sensor_ros2-0.0.0-py3.10.egg-info' (and everything under it)
+[1.221s] Copying ../build/serial_sensor_ros2/serial_sensor_ros2.egg-info to /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/serial_sensor_ros2/lib/python3.10/site-packages/serial_sensor_ros2-0.0.0-py3.10.egg-info
+[1.222s] running install_scripts
+[1.249s] writing list of installed files to '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/build/serial_sensor_ros2/install.log'
+[1.278s] Invoked command in '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/serial_sensor_ros2' returned '0': PYTHONPATH=/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/build/serial_sensor_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/serial_sensor_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/serial_sensor_ros2 build --build-base /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/build/serial_sensor_ros2/build install --record /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/build/serial_sensor_ros2/install.log --single-version-externally-managed install_data

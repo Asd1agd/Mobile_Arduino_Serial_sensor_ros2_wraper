@@ -1,0 +1,8 @@
+setup.py
+sensor_type_interface/__init__.py
+sensor_type_interface.egg-info/PKG-INFO
+sensor_type_interface.egg-info/SOURCES.txt
+sensor_type_interface.egg-info/dependency_links.txt
+sensor_type_interface.egg-info/top_level.txt
+sensor_type_interface/msg/__init__.py
+sensor_type_interface/msg/_mobile_sensor_array.py

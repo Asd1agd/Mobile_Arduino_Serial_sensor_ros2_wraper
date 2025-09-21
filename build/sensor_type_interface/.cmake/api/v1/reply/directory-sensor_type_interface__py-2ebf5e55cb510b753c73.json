@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "sensor_type_interface__py",
+		"source" : "/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/build/sensor_type_interface/sensor_type_interface__py"
+	}
+}

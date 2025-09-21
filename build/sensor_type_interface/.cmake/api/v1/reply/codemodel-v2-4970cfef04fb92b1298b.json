@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6a29da542c979289ef67.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "sensor_type_interface__py",
+					"jsonFile" : "directory-sensor_type_interface__py-2ebf5e55cb510b753c73.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/build/sensor_type_interface/sensor_type_interface__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "sensor_type_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_sensor_type_interface_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_sensor_type_interface_egg-b8928922dcc12f8e1cef.json",
+					"name" : "ament_cmake_python_build_sensor_type_interface_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_sensor_type_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_sensor_type_interface-e95a100df85e1d9926b6.json",
+					"name" : "ament_cmake_python_copy_sensor_type_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_type_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_type_interface-adfb36e41e7168d7a763.json",
+					"name" : "sensor_type_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_type_interface__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_type_interface__cpp-2fb4581a921821a5a423.json",
+					"name" : "sensor_type_interface__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sensor_type_interface__py::@65f0038c693805a2fa93",
+					"jsonFile" : "target-sensor_type_interface__py-49e3630a408a17378fef.json",
+					"name" : "sensor_type_interface__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_type_interface__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_type_interface__rosidl_generator_c-4c621e6db3d0e9aa3e24.json",
+					"name" : "sensor_type_interface__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_type_interface__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_type_interface__rosidl_generator_py-4159e3ae9cd78f6efa52.json",
+					"name" : "sensor_type_interface__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_type_interface__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_type_interface__rosidl_typesupport_c-d2deeffe058979b8953c.json",
+					"name" : "sensor_type_interface__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_type_interface__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_type_interface__rosidl_typesupport_c__pyext-606f074c42f992565e9f.json",
+					"name" : "sensor_type_interface__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_type_interface__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_type_interface__rosidl_typesupport_cpp-0ff602af994be32039b4.json",
+					"name" : "sensor_type_interface__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_type_interface__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_type_interface__rosidl_typesupport_fastrtps_c-42009e16824386f2fdbe.json",
+					"name" : "sensor_type_interface__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_type_interface__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_type_interface__rosidl_typesupport_fastrtps_c__pyext-5dbb13bd68de8b5dbc1f.json",
+					"name" : "sensor_type_interface__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_type_interface__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_type_interface__rosidl_typesupport_fastrtps_cpp-916da0bf63a1e4379abb.json",
+					"name" : "sensor_type_interface__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_type_interface__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_type_interface__rosidl_typesupport_introspection_c-367734365f9f2e158932.json",
+					"name" : "sensor_type_interface__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_type_interface__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_type_interface__rosidl_typesupport_introspection_c__pyext-971722ed9c4b93a75f46.json",
+					"name" : "sensor_type_interface__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_type_interface__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_type_interface__rosidl_typesupport_introspection_cpp-fb7dfb4511503d32b29c.json",
+					"name" : "sensor_type_interface__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_type_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_type_interface_uninstall-1958e6c205ca2bba65f2.json",
+					"name" : "sensor_type_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0f13c82dec9678d3fb72.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/build/sensor_type_interface",
+		"source" : "/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/sensor_type_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

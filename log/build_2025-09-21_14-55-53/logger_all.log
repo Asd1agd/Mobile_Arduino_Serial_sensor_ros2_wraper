@@ -1,0 +1,198 @@
+[0.138s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.138s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7837ae15e590>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7837ae15de10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7837ae15de10>>, mixin_verb=('build',))
+[0.339s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.340s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(sensor_type_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(sensor_type_interface) by extension 'ignore'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(sensor_type_interface) by extension 'ignore_ament_install'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(sensor_type_interface) by extensions ['colcon_pkg']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(sensor_type_interface) by extension 'colcon_pkg'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(sensor_type_interface) by extensions ['colcon_meta']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(sensor_type_interface) by extension 'colcon_meta'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(sensor_type_interface) by extensions ['ros']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(sensor_type_interface) by extension 'ros'
+[0.366s] DEBUG:colcon.colcon_core.package_identification:Package 'sensor_type_interface' with type 'ros.ament_cmake' and name 'sensor_type_interface'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(serial_sensor_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(serial_sensor_ros2) by extension 'ignore'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(serial_sensor_ros2) by extension 'ignore_ament_install'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(serial_sensor_ros2) by extensions ['colcon_pkg']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(serial_sensor_ros2) by extension 'colcon_pkg'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(serial_sensor_ros2) by extensions ['colcon_meta']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(serial_sensor_ros2) by extension 'colcon_meta'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(serial_sensor_ros2) by extensions ['ros']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(serial_sensor_ros2) by extension 'ros'
+[0.367s] DEBUG:colcon.colcon_core.package_identification:Package 'serial_sensor_ros2' with type 'ros.ament_python' and name 'serial_sensor_ros2'
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.399s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/asd/microros_ws/install
+[0.400s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/asd/ros2_ws_goat2/install
+[0.400s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/asd/ros2_ws6/install
+[0.401s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/asd/ros2_ws4/install
+[0.401s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/asd/ros2_ws2/install
+[0.402s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/asd/ros2_ws/install
+[0.403s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 16 installed packages in /home/asd/ros2_ws_hardware_int/install
+[0.403s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/asd/ros2_ws9/install
+[0.404s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/asd/ros2_ws7/install
+[0.404s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/asd/ros2_ws_hardware_int2/install
+[0.405s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/asd/ros2_ws_glim/install
+[0.405s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/asd/ros2_ws_to_build/install
+[0.408s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 504 installed packages in /opt/ros/humble
+[0.411s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'sensor_type_interface' build argument 'cmake_args' from command line to 'None'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'sensor_type_interface' build argument 'cmake_target' from command line to 'None'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'sensor_type_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'sensor_type_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'sensor_type_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'sensor_type_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'sensor_type_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'sensor_type_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'sensor_type_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.482s] DEBUG:colcon.colcon_core.verb:Building package 'sensor_type_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/build/sensor_type_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface', 'merge_install': False, 'path': '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/sensor_type_interface', 'symlink_install': False, 'test_result_base': None}
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'serial_sensor_ros2' build argument 'cmake_args' from command line to 'None'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'serial_sensor_ros2' build argument 'cmake_target' from command line to 'None'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'serial_sensor_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'serial_sensor_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'serial_sensor_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'serial_sensor_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'serial_sensor_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'serial_sensor_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'serial_sensor_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.483s] DEBUG:colcon.colcon_core.verb:Building package 'serial_sensor_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/build/serial_sensor_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/serial_sensor_ros2', 'merge_install': False, 'path': '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/serial_sensor_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.483s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.484s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.484s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/sensor_type_interface' with build type 'ament_cmake'
+[0.484s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/sensor_type_interface'
+[0.486s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.486s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.486s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.498s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/serial_sensor_ros2' with build type 'ament_python'
+[0.498s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_sensor_ros2', 'ament_prefix_path')
+[0.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/serial_sensor_ros2/share/serial_sensor_ros2/hook/ament_prefix_path.ps1'
+[0.499s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/serial_sensor_ros2/share/serial_sensor_ros2/hook/ament_prefix_path.dsv'
+[0.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/serial_sensor_ros2/share/serial_sensor_ros2/hook/ament_prefix_path.sh'
+[0.500s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.500s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.518s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/build/sensor_type_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asd/ros2_ws_goat2/install/multi_robo_simulator:/home/asd/ros2_ws_goat2/install/micro_ros_server:/home/asd/ros2_ws_goat2/install/Qr_action:/home/asd/ros2_ws9/install/my_goat_pkg:/home/asd/ros2_ws7/install/my_py_pkg_anscer:/home/asd/ros2_ws4/install/esp_wifi:/home/asd/ros2_ws4/install/maping_odom:/home/asd/ros2_ws/install/turtlesim_catch_them_all:/home/asd/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/sensor_type_interface -DCMAKE_INSTALL_PREFIX=/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface
+[0.866s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/serial_sensor_ros2'
+[0.866s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.866s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.382s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/serial_sensor_ros2': PYTHONPATH=/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/build/serial_sensor_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/serial_sensor_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/serial_sensor_ros2 build --build-base /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/build/serial_sensor_ros2/build install --record /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/build/serial_sensor_ros2/install.log --single-version-externally-managed install_data
+[1.777s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/serial_sensor_ros2' returned '0': PYTHONPATH=/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/build/serial_sensor_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/serial_sensor_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/serial_sensor_ros2 build --build-base /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/build/serial_sensor_ros2/build install --record /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/build/serial_sensor_ros2/install.log --single-version-externally-managed install_data
+[1.780s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/serial_sensor_ros2' for CMake module files
+[1.780s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/serial_sensor_ros2' for CMake config files
+[1.781s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/serial_sensor_ros2/lib'
+[1.781s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/serial_sensor_ros2/bin'
+[1.781s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/serial_sensor_ros2/lib/pkgconfig/serial_sensor_ros2.pc'
+[1.782s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/serial_sensor_ros2/lib/python3.10/site-packages'
+[1.782s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_sensor_ros2', 'pythonpath')
+[1.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/serial_sensor_ros2/share/serial_sensor_ros2/hook/pythonpath.ps1'
+[1.783s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/serial_sensor_ros2/share/serial_sensor_ros2/hook/pythonpath.dsv'
+[1.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/serial_sensor_ros2/share/serial_sensor_ros2/hook/pythonpath.sh'
+[1.784s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/serial_sensor_ros2/bin'
+[1.784s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_sensor_ros2)
+[1.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/serial_sensor_ros2/share/serial_sensor_ros2/package.ps1'
+[1.786s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/serial_sensor_ros2/share/serial_sensor_ros2/package.dsv'
+[1.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/serial_sensor_ros2/share/serial_sensor_ros2/package.sh'
+[1.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/serial_sensor_ros2/share/serial_sensor_ros2/package.bash'
+[1.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/serial_sensor_ros2/share/serial_sensor_ros2/package.zsh'
+[1.789s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/serial_sensor_ros2/share/colcon-core/packages/serial_sensor_ros2)
+[2.064s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/build/sensor_type_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asd/ros2_ws_goat2/install/multi_robo_simulator:/home/asd/ros2_ws_goat2/install/micro_ros_server:/home/asd/ros2_ws_goat2/install/Qr_action:/home/asd/ros2_ws9/install/my_goat_pkg:/home/asd/ros2_ws7/install/my_py_pkg_anscer:/home/asd/ros2_ws4/install/esp_wifi:/home/asd/ros2_ws4/install/maping_odom:/home/asd/ros2_ws/install/turtlesim_catch_them_all:/home/asd/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/sensor_type_interface -DCMAKE_INSTALL_PREFIX=/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface
+[2.065s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/build/sensor_type_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asd/ros2_ws_goat2/install/multi_robo_simulator:/home/asd/ros2_ws_goat2/install/micro_ros_server:/home/asd/ros2_ws_goat2/install/Qr_action:/home/asd/ros2_ws9/install/my_goat_pkg:/home/asd/ros2_ws7/install/my_py_pkg_anscer:/home/asd/ros2_ws4/install/esp_wifi:/home/asd/ros2_ws4/install/maping_odom:/home/asd/ros2_ws/install/turtlesim_catch_them_all:/home/asd/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/build/sensor_type_interface -- -j8 -l8
+[4.953s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/build/sensor_type_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asd/ros2_ws_goat2/install/multi_robo_simulator:/home/asd/ros2_ws_goat2/install/micro_ros_server:/home/asd/ros2_ws_goat2/install/Qr_action:/home/asd/ros2_ws9/install/my_goat_pkg:/home/asd/ros2_ws7/install/my_py_pkg_anscer:/home/asd/ros2_ws4/install/esp_wifi:/home/asd/ros2_ws4/install/maping_odom:/home/asd/ros2_ws/install/turtlesim_catch_them_all:/home/asd/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/build/sensor_type_interface -- -j8 -l8
+[4.969s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/build/sensor_type_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asd/ros2_ws_goat2/install/multi_robo_simulator:/home/asd/ros2_ws_goat2/install/micro_ros_server:/home/asd/ros2_ws_goat2/install/Qr_action:/home/asd/ros2_ws9/install/my_goat_pkg:/home/asd/ros2_ws7/install/my_py_pkg_anscer:/home/asd/ros2_ws4/install/esp_wifi:/home/asd/ros2_ws4/install/maping_odom:/home/asd/ros2_ws/install/turtlesim_catch_them_all:/home/asd/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/build/sensor_type_interface
+[5.067s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensor_type_interface)
+[5.067s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface' for CMake module files
+[5.068s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/build/sensor_type_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asd/ros2_ws_goat2/install/multi_robo_simulator:/home/asd/ros2_ws_goat2/install/micro_ros_server:/home/asd/ros2_ws_goat2/install/Qr_action:/home/asd/ros2_ws9/install/my_goat_pkg:/home/asd/ros2_ws7/install/my_py_pkg_anscer:/home/asd/ros2_ws4/install/esp_wifi:/home/asd/ros2_ws4/install/maping_odom:/home/asd/ros2_ws/install/turtlesim_catch_them_all:/home/asd/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/build/sensor_type_interface
+[5.068s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface' for CMake config files
+[5.069s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_type_interface', 'cmake_prefix_path')
+[5.069s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/hook/cmake_prefix_path.ps1'
+[5.070s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/hook/cmake_prefix_path.dsv'
+[5.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/hook/cmake_prefix_path.sh'
+[5.070s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/lib'
+[5.071s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_type_interface', 'ld_library_path_lib')
+[5.071s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/hook/ld_library_path_lib.ps1'
+[5.071s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/hook/ld_library_path_lib.dsv'
+[5.071s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/hook/ld_library_path_lib.sh'
+[5.072s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/bin'
+[5.072s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/lib/pkgconfig/sensor_type_interface.pc'
+[5.072s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/lib/python3.10/site-packages'
+[5.072s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/bin'
+[5.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/package.ps1'
+[5.073s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/package.dsv'
+[5.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/package.sh'
+[5.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/package.bash'
+[5.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/package.zsh'
+[5.075s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/colcon-core/packages/sensor_type_interface)
+[5.076s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensor_type_interface)
+[5.076s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface' for CMake module files
+[5.076s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface' for CMake config files
+[5.077s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_type_interface', 'cmake_prefix_path')
+[5.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/hook/cmake_prefix_path.ps1'
+[5.077s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/hook/cmake_prefix_path.dsv'
+[5.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/hook/cmake_prefix_path.sh'
+[5.078s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/lib'
+[5.078s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_type_interface', 'ld_library_path_lib')
+[5.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/hook/ld_library_path_lib.ps1'
+[5.079s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/hook/ld_library_path_lib.dsv'
+[5.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/hook/ld_library_path_lib.sh'
+[5.080s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/bin'
+[5.080s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/lib/pkgconfig/sensor_type_interface.pc'
+[5.080s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/lib/python3.10/site-packages'
+[5.080s] Level 1:colcon.colcon_core.environment:checking '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/bin'
+[5.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/package.ps1'
+[5.082s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/package.dsv'
+[5.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/package.sh'
+[5.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/package.bash'
+[5.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/sensor_type_interface/package.zsh'
+[5.084s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/sensor_type_interface/share/colcon-core/packages/sensor_type_interface)
+[5.084s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.085s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.085s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.085s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.092s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.092s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.092s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.106s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.107s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/local_setup.ps1'
+[5.108s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/_local_setup_util_ps1.py'
+[5.109s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/setup.ps1'
+[5.115s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/local_setup.sh'
+[5.116s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/_local_setup_util_sh.py'
+[5.117s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/setup.sh'
+[5.123s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/local_setup.bash'
+[5.123s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/setup.bash'
+[5.128s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/local_setup.zsh'
+[5.129s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/asd/temp_git_repo/Mobile_Arduino_Serial_sensor_ros2_wraper/install/setup.zsh'

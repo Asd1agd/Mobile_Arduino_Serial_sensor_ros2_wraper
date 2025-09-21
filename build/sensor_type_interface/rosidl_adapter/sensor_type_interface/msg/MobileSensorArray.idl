@@ -1,0 +1,42 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from sensor_type_interface/msg/MobileSensorArray.msg
+// generated code does not contain a copyright notice
+
+
+module sensor_type_interface {
+  module msg {
+    typedef float float__5[5];
+    @verbatim (language="comment", text=
+      "MobileSensorArray.msg" "\n"
+      "Each array has 5 elements: [sensor_id, timestamp_seconds, data1, data2, data3]")
+    struct MobileSensorArray {
+      float__5 accelerometer_sensor_data;
+
+      float__5 magnetic_field_sensor_data;
+
+      float__5 gyroscope_sensor_data;
+
+      float__5 light_sensor_data;
+
+      float__5 pressure_sensor_data;
+
+      float__5 proximity_sensor_data;
+
+      float__5 gravity_sensor_data;
+
+      float__5 relative_humidity_sensor_data;
+
+      float__5 temperature_sensor_data;
+
+      float__5 heart_beat_sensor_data;
+
+      float__5 orientation_sensor_data;
+
+      float__5 line_sensor_sensor_data;
+
+      float__5 position_sensor_data;
+
+      float__5 parameter_sensor_data;
+    };
+  };
+};
